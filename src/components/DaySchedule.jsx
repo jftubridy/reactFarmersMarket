@@ -3,10 +3,16 @@ import PropTypes from 'prop-types';
 
 function Schedule(props) {
   return (
-    <div>
+    <div><style jsx>{`
+    div {
+      background-color: white;
+    }
+    div:hover {
+      background-color: teal;
+    }
+  `}</style>
       <h3>{props.day} - Location: {props.location}</h3>
-      <h3>From {props.hours} at Booth {props.booth}</h3>
-      <hr />
+      <h4>From {props.hours} at Booth {props.booth}</h4>
     </div>
   );
 }

@@ -2,19 +2,14 @@ import React from 'react';
 
 function Header() {
   return (
-    <h1><style jsx> {`
-    h1 {
+    <h2><style jsx> {`
+    h2 {
       color: black;
     }
-    h1:hover {
+    h2:hover {
       color: green;
     }
-    `}</style>Farmers Market Schedule</h1>
-    //   <style jsx>{`
-    //   div {
-    //     color: purple;
-    //   }
-    // `}</style>
+    `}</style>Farmers Market Schedule</h2>
   );
 }
 
