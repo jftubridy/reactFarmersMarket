@@ -2,7 +2,7 @@ import React from 'react';
 //import PropTypes from 'prop-types';
 import Schedule from './DaySchedule';
 
-const marketSchedule = [
+var masterSchedule = [
   {
     day: 'Sunday',
     location: 'Lents International',
@@ -44,13 +44,7 @@ const marketSchedule = [
 function MarketSchedule() {
   return (
     <div>
-      <style jsx> {`
-            div {
-                background-color: teal;
-            }
-            `}</style>
-      <hr />
-      {marketSchedule.map((schedule, index) =>
+      {masterSchedule.map((schedule, index) =>
         <Schedule day={schedule.day}
           location={schedule.location}
           hours={schedule.hours}

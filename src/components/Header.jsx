@@ -10,11 +10,11 @@ function Header() {
       color: green;
     }
     `}</style>Farmers Market Schedule</h1>
-  //   <style jsx>{`
-  //   div {
-  //     color: purple;
-  //   }
-  // `}</style>
+    //   <style jsx>{`
+    //   div {
+    //     color: purple;
+    //   }
+    // `}</style>
   );
 }
 
