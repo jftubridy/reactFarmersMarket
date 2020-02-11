@@ -2,7 +2,7 @@ import React from 'react';
 //import PropTypes from 'prop-types';
 import Schedule from './DaySchedule';
 
-var masterSchedule = [
+const masterSchedule = [
   {
     day: 'Sunday',
     location: 'Lents International',
