@@ -12,9 +12,9 @@ var monthSelection = [
       'Onions',' ',
       'Potatoes',' ',
       'Turnips'
-  ]
-//produce: selection.produce
-},
+    ]
+    //produce: selection.produce
+  },
   {month: 'February',
     selection: [
       'Apples',' ',
@@ -24,9 +24,9 @@ var monthSelection = [
       'Mushrooms',' ',
       'Onions',' ',
       'Potatoes'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'March',
     selection: [
       'Apples',' ',
@@ -37,9 +37,9 @@ var monthSelection = [
       'Mushrooms',' ',
       'Onions',' ',
       'Potatoes'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'April',
     selection: [
       'Apples',' ',
@@ -52,9 +52,9 @@ var monthSelection = [
       'Mushrooms',' ',
       'Onions',' ',
       'Potatoes'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'May',
     selection: [
       'Apples',' ',
@@ -67,9 +67,9 @@ var monthSelection = [
       'Lettuce',' ',
       'Potatoes',' ',
       'Radishes'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'June',
     selection: [
       'Apples',' ',
@@ -89,9 +89,9 @@ var monthSelection = [
       'Potatoes',' ',
       'Radishes',' ',
       'Squash'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'July',
     selection: [
       'Apples',' ',
@@ -125,9 +125,9 @@ var monthSelection = [
       'Radishes',' ',
       'Squash',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'August',
     selection: [
       'Apples',' ',
@@ -165,9 +165,9 @@ var monthSelection = [
       'Radishes',' ',
       'Squash',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'September',
     selection: [
       'Apples',' ',
@@ -199,9 +199,9 @@ var monthSelection = [
       'Radishes',' ',
       'Squash',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'October',
     selection: [
       'Apples',' ',
@@ -232,9 +232,9 @@ var monthSelection = [
       'Radishes',' ',
       'Squash',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'November',
     selection: [
       'Apples',' ',
@@ -249,9 +249,9 @@ var monthSelection = [
       'Potatoes',' ',
       'Squash',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-},
+  },
   {month: 'December',
     selection: [
       'Apples',' ',
@@ -265,16 +265,17 @@ var monthSelection = [
       'Onions',' ',
       'Potatoes',' ',
       'Turnips'
-  ]
+    ]
   //produce: selection.produce
-}
+  }
 ];
 
 function Month(){
   return(
     <div>
       {monthSelection.map((selection, index) =>
-        <Selection month={selection.month}
+        <Selection 
+          month={selection.month}
           selection={selection.selection}
           key={index}/>
       )}

@@ -275,7 +275,8 @@ function MonthlyProduce(){
   return (
     <div>
       {availableProduce.map((month, index) =>
-        <Month types={month.types}
+        <Month 
+        //types={month.types}
           key ={index}/>
       )}
     </div>
