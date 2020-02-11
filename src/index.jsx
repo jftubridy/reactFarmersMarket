@@ -4,12 +4,12 @@ import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
 
 const render = (Component) => {
-    ReactDOM.render(
-        <AppContainer>
-            <Component />
-        </AppContainer>,
-        document.getElementById('react-app-root')
-    );
+  ReactDOM.render(
+    <AppContainer>
+      <Component />
+    </AppContainer>,
+    document.getElementById('react-app-root')
+  );
 };
 
 render(App);
@@ -20,5 +20,5 @@ if (module.hot) {
     })
 }
   /*eslint-enable*/
-  //this special code disables and then reenables eslint
-  //its better to do ESLint configurations, like "jsx-uses-react" than disable
+//this special code disables and then reenables eslint
+//its better to do ESLint configurations, like "jsx-uses-react" than disable
