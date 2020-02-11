@@ -4,16 +4,7 @@ import Month from './Month';
 const availableProduce = [
   {
     month: 'January',
-    selection: [
-      'Apples',
-      'Hazelnuts',
-      'Pears',
-      'Garlic',
-      'Mushrooms',
-      'Onions',
-      'Potatoes',
-      'Turnips'
-    ]
+
   },
   {
     month: 'February',

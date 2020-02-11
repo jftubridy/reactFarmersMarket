@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 function Selection(props){
   return(
     <div>
+      <h3>{props.month}</h3>
       <ul>
         <li>{props.selection}</li>
       </ul>
@@ -12,6 +13,7 @@ function Selection(props){
 }
 
 Selection.propTypes={
+  month: PropTypes.string.isRequired,
   selection: PropTypes.arrayOf(PropTypes.string)
 };
 
