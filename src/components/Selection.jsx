@@ -6,7 +6,7 @@ function Selection(props){
     <div>
       <h3>{props.month}</h3>
       <ul>
-        <li>{props.selection}</li>
+        <li>{props.selection}  </li>
       </ul>
     </div>
   );
