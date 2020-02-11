@@ -1,4 +1,7 @@
-/* const availableProduce = [
+import React from 'react';
+import Month from './Month';
+
+const availableProduce = [
   {
     month: 'January',
     selection: [
@@ -265,4 +268,18 @@
       'Turnips'
     ]
   }
-]; */
+];
+
+
+function MonthlyProduce(){
+  return (
+    <div>
+      {availableProduce.map((month, index) =>
+        <Month types={month.types}
+          key ={index}/>
+      )}
+    </div>
+  );
+}
+
+export default MonthlyProduce;
