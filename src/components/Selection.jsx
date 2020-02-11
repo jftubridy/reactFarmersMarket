@@ -18,3 +18,12 @@ Selection.propTypes={
 };
 
 export default Selection;
+
+{/* <style jsx>{`
+div {
+  font-size: 0;
+}
+div :hover {
+  font-size: 12;
+}
+`}</style> */}
