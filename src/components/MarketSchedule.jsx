@@ -22,7 +22,7 @@ const masterSchedule = [
     booth: '1F'
   },
   {
-    day: 'Wendsday',
+    day: 'Wednesday',
     location: 'Shemanski Park',
     hours: '10:00am - 2:00pm',
     booth: '3E'

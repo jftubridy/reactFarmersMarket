@@ -3,15 +3,19 @@ import Header from './Header';
 import MarketSchedule from './MarketSchedule';
 import MonthlyProduce from './AvailableProduce';
 import Month from './Month';
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <Header />
       <hr/>
-      <MarketSchedule />
+      <Switch>
+        <Route exact path='/' component={MarketSchedule} />
+        <Route exact path='/Month' component={Month} />
       <hr/>
-      <Month />
+      {/* <Month /> */}
+      </Switch>
       
     </div>
   );
